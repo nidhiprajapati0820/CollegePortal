@@ -1,0 +1,21 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>Student</servlet-name>
+		<servlet-class>com.jnit.studentRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Student</servlet-name>
+		<url-pattern>/Student_registration</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Faculty_form</servlet-name>
+		<servlet-class>com.jnit.Facultydetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Faculty_form</servlet-name>
+		<url-pattern>/faculty_details</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
